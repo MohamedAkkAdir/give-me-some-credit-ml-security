@@ -5,7 +5,6 @@ This project explores **adversarial machine learning, privacy attacks, and bias 
 
 ## 📊 Dataset
 - **Name:** Give Me Some Credit
-- **Source:** [Kaggle](https://www.kaggle.com/datasets/samhita/give-me-some-credit-dataset)
 - **Objective:** Predict the probability of a customer **defaulting** on their credit.
 
 ## 🏗️ Project Structure
