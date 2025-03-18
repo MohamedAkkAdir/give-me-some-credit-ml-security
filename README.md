@@ -1,24 +1,24 @@
-# give-me-some-credit-ml-security
+# Give Me Some Credit - ML Security Project
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+## 📌 Project Overview
+This project explores **adversarial machine learning, privacy attacks, and bias mitigation** using the **Give Me Some Credit** dataset. The goal is to evaluate how robust financial models are against **adversarial attacks, privacy threats, and biases**.
 
-Adversarial ML, Privacy Attacks, and Bias Mitigation on Give Me Some Credit Dataset
+## 📊 Dataset
+- **Name:** Give Me Some Credit
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/samhita/give-me-some-credit-dataset)
+- **Objective:** Predict the probability of a customer **defaulting** on their credit.
 
-## Project Organization
+## 🏗️ Project Structure
+
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
@@ -38,23 +38,6 @@ Adversarial ML, Privacy Attacks, and Bias Mitigation on Give Me Some Credit Data
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.cfg          <- Configuration file for flake8
-│
-└── give-me-some-credit-ml-security   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes give-me-some-credit-ml-security a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
 ```
 
 --------
