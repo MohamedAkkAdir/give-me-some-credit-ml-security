@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "give-me-some-credit-ml-security"
+version = "0.0.1"
+description = "Adversarial ML, Privacy Attacks, and Bias Mitigation on Give Me Some Credit Dataset"
+authors = [
+  { name = "Akkadir \u0026 Zbiri" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.11"
+
+
+[tool.ruff]
+line-length = 99
+src = ["give-me-some-credit-ml-security"]
+include = ["pyproject.toml", "give-me-some-credit-ml-security/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["give-me-some-credit-ml-security"]
+force-sort-within-sections = true
+
